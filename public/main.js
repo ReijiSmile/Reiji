@@ -15,7 +15,7 @@ nameForm.addEventListener('submit', function(event){
 
     socketio.emit('signin');
 
-    const msg = {msg: 'Welcome to our room!!' + username , name: 'Hello World'};
+    const msg = {msg: 'Welcome to our room!!' + username + 'このroomではみんなで大喜利大会をするよ！メンバーが揃ったら出題者と回答者を決めてスタートだ！', name: 'Hello World'};
     socketio.emit('message', msg);
   }
 
