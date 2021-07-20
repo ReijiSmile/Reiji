@@ -17,10 +17,10 @@ form {
 input,
 button
 {
-    border:1px solid #ccc;
-    font-size:5vw;
+    border:1px solid rgb(245, 20, 20);
+    font-size:7vw;
     height:10vw;
-    padding:0 5vw;
+    padding:0 100vw;
     outline: 0;
     line-height:5vw;
     margin:0;
