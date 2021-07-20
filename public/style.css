@@ -18,7 +18,7 @@ input,
 button
 {
     border:1px solid rgb(245, 20, 20);
-    font-size:7vw;
+    font: size 5px;vw;
     height:10vw;
     padding:0 5vw;
     outline: 0;
@@ -46,36 +46,6 @@ button
     padding:1vw 3vw;
     display: inline-block;
 }
-
-.balloon3-right-btm {
-    position: relative;
-    display: inline-block;
-    margin: 1.5em 15px 1.5em 0;
-    padding: 0 5px;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: bold;
-    background: #a58eff;
-    border-radius: 50%;
-    box-sizing: border-box;
-  }
-  
-  .balloon3-right-btm:before {
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    right: -8px;
-    margin-top: -15px;
-    border: 15px solid transparent;
-    border-left: 15px solid #a58eff;
-    z-index: 0;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
 #chats dt+dd
 {
     margin-left: 8vw;
