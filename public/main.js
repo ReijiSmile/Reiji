@@ -52,3 +52,10 @@ function displayMessage(msg){
   dd.append(msg.msg);
   chats.append(dd);
 }
+
+const button = document.querySelector('button');
+
+button.onclick = function() {
+  let name = prompt('あなたの名前は何ですか？');
+  alert('こんにちは、' + name + '先生、大変お世話になりました。ありがとうございました！');
+}
