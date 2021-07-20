@@ -18,11 +18,12 @@ input,
 button
 {
     border:1px solid rgb(234, 0, 255);
-    font-size: size 5vw;
-    line-height:7vw;
+    font-size: 5vw;
+    line-height:5vw;
     height: 10vw;
     padding:0 5vw;
     outline: 0;
+    margin:0;
 
 }
 input
@@ -32,7 +33,7 @@ input
 button
 {
     border-radius:0 5vw 5vw 0;
-    background: #ccc;
+    background: rgb(204, 8, 8);
 }
 #chats
 {
