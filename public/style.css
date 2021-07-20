@@ -42,7 +42,7 @@ button
 #chats dt
 {
     margin: 2vw 0;
-    border:1px solid #ccc(250, 255, 170);
+    border:1px solid rgb(150, 150, 150);
     border-radius:3vw;
     padding:1vw 3vw;
     display: inline-block;
@@ -51,7 +51,7 @@ button
 {
     margin-left: 8vw;
     position: relative;
-    background-color:#ccc(130, 200, 250);
+    background-color:rgb(70, 70, 70);
     border-radius:3vw;
     padding:1vw 3vw;
 }
