@@ -4,7 +4,7 @@
 }
 h1 {
     text-align: center;
-    background-color: rgb(49, 221, 233);
+    background-color: rgb(50, 220, 230);
     color: #fff;
     font-size: 5vw;
 }
@@ -17,7 +17,7 @@ form {
 input,
 button
 {
-    border:1px solid rgb(234, 0, 255);
+    border:3px solid rgb(50, 220, 230);
     font-size: 5vw;
     line-height:5vw;
     height: 10vw;
@@ -33,7 +33,7 @@ input
 button
 {
     border-radius:0 5vw 5vw 0;
-    background: rgb(204, 8, 8);
+    background: rgb(50, 220, 230);
 }
 #chats
 {
